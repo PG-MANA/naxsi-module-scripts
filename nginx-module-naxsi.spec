@@ -2,7 +2,7 @@
 #
 
 Name:           nginx-module-naxsi
-Version:        1.4
+Version:        1.7
 Release:        0
 Summary:        The Web Application Firewall for Nginx
 License:        GPL-3.0
