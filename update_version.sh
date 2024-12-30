@@ -1,5 +1,10 @@
 #!/bin/sh
- 
+
+## Before run,
+## Edit nginx-module-naxsi.spec
+## osc add nginx-module-naxsi.spec
+## osc remove nginx-module-naxsi-$(old_ver).tar.xz
+
 cd naxsi
 git checkout $1
 git submodule update
